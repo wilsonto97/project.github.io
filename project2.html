@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Data Visualisation" />
+    <meta name="keywords" content="HTML,CSS,D3" />
+    <meta name="author" content="Wilson To Wee Sen" />
+
+    <title>Project Process Book</title>
+    <link rel="stylesheet" type="text/css" href="project.css" />
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <script src="project2.js"></script>
+
+</head>
+
+<body>
+        <ul>
+                <li><a href="index.html">Deaths by road users and age groups</a></li>
+                <li><a href="barchart.html">Deaths by gender and road users</a></li>
+                <li><a class="active" href="project2.html">Deaths by states and age groups </a></li>
+                
+              </ul>
+    <h1>Deaths by age groups and states</h1>
+    <h3>States:</h3>
+    <div class="radio">
+        <input type="radio" id="nsw" name="state" value="New South Wales" checked>
+        <label for="nsw">New South Wales</label>
+
+        <input type="radio" id="vic" name="state" value="Victoria">
+        <label for="vic">Victoria</label>
+
+        <input type="radio" id="qld" name="state" value="Queensland" >
+        <label for="qld">Queensland</label>
+
+        <input type="radio" id="sa" name="state" value="South Australia">
+        <label for="sa">South Australia</label>
+
+        <input type="radio" id="wa" name="state" value="Western Australia">
+        <label for="wa">Western Australia</label>
+
+        <input type="radio" id="tas" name="state" value="Tasmania">
+        <label for="tas">Tasmania</label>
+
+        <input type="radio" id="nt" name="state" value="Northern Territory">
+        <label for="nt">Northern Territory</label>
+
+        <input type="radio" id="act" name="state" value="Australian Capital Territory">
+        <label for="act">Australian Capital Territory</label>
+    </div>
+    <p id="chart"></p>
+    
+    
+    <div id="legend">
+        <h3>Age group:</h3>
+         <div class="legend"> <p class="age-group"><span class="key-dot0-16"></span>0-16</p> </div>
+         <div class="legend"> <p class="age-group"><span class="key-dot17-25"></span>17-25</p> </div>
+         <div class="legend"> <p class="age-group"><span class="key-dot26-39"></span>26-39</p> </div>
+         <div class="legend"> <p class="age-group"><span class="key-dot40-64"></span>40-64</p> </div>
+         <div class="legend"> <p class="age-group"><span class="key-dot65-74"></span>65-74</p> </div>
+      </div>
+    
+<hr>
+
+
+    <br>
+    
+        <footer style="color:grey">COS30045 Data Visualisation<br>Wilson To</footer>
+</body>
+
+</html>
