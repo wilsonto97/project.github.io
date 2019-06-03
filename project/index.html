@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Data Visualisation" />
+    <meta name="keywords" content="HTML,CSS,D3" />
+    <meta name="author" content="Wilson To Wee Sen" />
+
+    <title>Project Process Book</title>
+    <link rel="stylesheet" type="text/css" href="project.css" />
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <script src="project.js"></script>
+
+</head>
+
+<body>
+        <ul>
+                <li><a class="active"href="index.html">Deaths by road users and age group</a></li>
+                <li><a href="barchart.html">Deaths by gender and road users</a></li>
+                <li><a href="project2.html">Deaths by states and age groups</a></li>
+                
+              </ul>
+    <h1>Deaths by road users and age group</h1>
+    <h3>Road Users:</h3>
+    <div class="radio">
+        <input type="radio" id="driver" name="roaduser" value="Drivers" checked>
+        <label for="driver">Drivers</label>
+
+        <input type="radio" id="passenger" name="roaduser" value="Passengers">
+        <label for="passenger">Passengers</label>
+
+        <input type="radio" id="pedestrian" name="roaduser" value="Pedestrian" >
+        <label for="pedestrian">Pedestrian</label>
+
+        <input type="radio" id="motorcyclist" name="roaduser" value="Motorcyclist">
+        <label for="motorcyclist">Motorcyclist</label>
+
+        <input type="radio" id="pedal_cyclist" name="roaduser" value="Pedal_Cyclist">
+        <label for="pedal_cyclist">Pedal Cyclist</label>
+    </div>
+    <p id="chart"></p>
+    
+    
+    <div id="legend">
+        <h3>Age group:</h3>
+         <div class="legend"> <p class="age-group"><span class="key-dot0-16"></span>0-16</p> </div>
+         <div class="legend"> <p class="age-group"><span class="key-dot17-25"></span>17-25</p> </div>
+         <div class="legend"> <p class="age-group"><span class="key-dot26-39"></span>26-39</p> </div>
+         <div class="legend"> <p class="age-group"><span class="key-dot40-64"></span>40-64</p> </div>
+         <div class="legend"> <p class="age-group"><span class="key-dot65-74"></span>65-74</p> </div>
+      </div>
+    
+<hr>
+
+
+    <br>
+    
+        <footer style="color:grey">COS30045 Data Visualisation<br>Wilson To</footer>
+</body>
+
+</html>
